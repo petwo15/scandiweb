@@ -59,7 +59,7 @@
         </div>
 
         <div class="d-flex justify-content-between">
-            <button type="submit" class="btn btn-success" onClick="<?php header("Location: /index.php"); ?>" >Save</button>
+            <button type="submit" class="btn btn-success" onClick="document.location.href='index.php'" >Save</button>
             <a href="index.php" class="btn btn-secondary">Cancel</a>
         </div>
     </form>
