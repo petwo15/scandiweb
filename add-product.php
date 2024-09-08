@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Add</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="assets/styles/main.css">
-</head>
-<body>
+<?php include 'includes/header.php'; ?>
+
 <div class="container mt-5">
     <h1>Product Add</h1>
     <form id="product_form" method="POST" action="submit-product.php">
@@ -75,9 +65,6 @@
     </form>
 </div>
 
-<!-- Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/main.js"></script>
-</body>
-</html>
+
+<?php include 'includes/footer.php'; ?>
